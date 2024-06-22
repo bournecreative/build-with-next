@@ -1,9 +1,11 @@
+import { HeroComponent } from "@/components/heroComponent"
+import heroImg from '/public/reliability.jpg'
+
 const Reliability = () => {
     return (
-        <div>
-            <h1>Reliability</h1>
-        </div>
+         <HeroComponent heroImage={heroImg} altText="industrial factory with cranes" heroText="Welder welding"/>
     )
 }
 
 export default Reliability
+

@@ -1,8 +1,9 @@
+import { HeroComponent } from "@/components/heroComponent"
+import heroImg from '/public/scale.jpg'
+
 const Scale = () => {
     return (
-        <div>
-            <h1>Scale</h1>
-        </div>
+        <HeroComponent heroImage={heroImg} altText="industrial factory with cranes" heroText="Scale Text"/>
     )
 }
 

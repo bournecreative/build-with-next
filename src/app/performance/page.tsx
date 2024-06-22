@@ -1,7 +1,10 @@
+import { HeroComponent } from "@/components/heroComponent"
+import heroImg from '/public/performance.jpg'
+
 const Performance = () => {
     return (
         <div>
-            <h1>Performance</h1>
+            <HeroComponent heroImage={heroImg} altText="welding" heroText="Performance"/>
         </div>
     )
 }
